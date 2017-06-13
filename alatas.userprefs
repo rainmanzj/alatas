@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{C0AFF96B-65A9-4328-800D-866072E41F25}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Earth3dViewer/CesiumViewer.css">
+    <Files>
+      <File FileName="index.html" Line="82" Column="67" />
+      <File FileName="hAdmin/graph_flot.html" Line="1" Column="1" />
+      <File FileName="spider/graph_spider.html" Line="22" Column="39" />
+      <File FileName="hAdmin/index_v1.html" Line="1717" Column="1" />
+      <File FileName="Earth3dViewer/index.html" Line="18" Column="8" />
+      <File FileName="Earth3dViewer/.DS_Store" Line="1" Column="1" />
+      <File FileName="Earth3dViewer/CesiumViewer.js" Line="1" Column="1" />
+      <File FileName="Earth3dViewer/CesiumViewerStartup.js" Line="12" Column="1" />
+      <File FileName="Earth3dViewer/CesiumViewer.css" Line="1" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.alatas PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

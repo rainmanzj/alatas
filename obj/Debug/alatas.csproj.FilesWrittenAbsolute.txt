@@ -1,0 +1,5 @@
+/Users/zhangjie/Desktop/03_dev/04_other/VSForMacTest/alatas/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/zhangjie/Desktop/03_dev/04_other/VSForMacTest/alatas/bin/alatas.dll.mdb
+/Users/zhangjie/Desktop/03_dev/04_other/VSForMacTest/alatas/bin/alatas.dll
+/Users/zhangjie/Desktop/03_dev/04_other/VSForMacTest/alatas/obj/Debug/alatas.dll
+/Users/zhangjie/Desktop/03_dev/04_other/VSForMacTest/alatas/obj/Debug/alatas.dll.mdb
