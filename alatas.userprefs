@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{C0AFF96B-65A9-4328-800D-866072E41F25}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Earth3dViewer/CesiumViewer.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Earth3dViewer/CesiumViewer.js">
     <Files>
       <File FileName="index.html" Line="82" Column="67" />
       <File FileName="hAdmin/graph_flot.html" Line="1" Column="1" />
       <File FileName="spider/graph_spider.html" Line="22" Column="39" />
       <File FileName="hAdmin/index_v1.html" Line="1717" Column="1" />
-      <File FileName="Earth3dViewer/index.html" Line="18" Column="8" />
+      <File FileName="Earth3dViewer/index.html" Line="13" Column="43" />
       <File FileName="Earth3dViewer/.DS_Store" Line="1" Column="1" />
-      <File FileName="Earth3dViewer/CesiumViewer.js" Line="1" Column="1" />
-      <File FileName="Earth3dViewer/CesiumViewerStartup.js" Line="12" Column="1" />
-      <File FileName="Earth3dViewer/CesiumViewer.css" Line="1" Column="53" />
+      <File FileName="Earth3dViewer/CesiumViewer.js" Line="201" Column="26" />
+      <File FileName="Earth3dViewer/CesiumViewerStartup.js" Line="10" Column="20" />
+      <File FileName="Earth3dViewer/CesiumViewer.css" Line="2" Column="53" />
+      <File FileName="Earth3dViewer/js/init.js" Line="1" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

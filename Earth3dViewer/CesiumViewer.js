@@ -13,6 +13,7 @@ define([
         'Cesium/Widgets/Viewer/Viewer',
         'Cesium/Widgets/Viewer/viewerCesiumInspectorMixin',
         'Cesium/Widgets/Viewer/viewerDragDropMixin',
+        'js/init.js',
         'domReady!'
     ], function(
         Cartesian3,
@@ -202,4 +203,5 @@ define([
     }
 
     loadingIndicator.style.display = 'none';
+    AddModel(viewer);
 });

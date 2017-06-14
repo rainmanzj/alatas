@@ -618,6 +618,7 @@
     <Content Include="Earth3dViewer\CesiumViewerStartup.js" />
     <Content Include="Earth3dViewer\Images\ajax-loader.gif" />
     <Content Include="Earth3dViewer\index.html" />
+    <Content Include="Earth3dViewer\js\init.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="hAdmin\favicon.ico" />
@@ -650,6 +651,8 @@
   <ItemGroup>
     <Folder Include="hAdmin\" />
     <Folder Include="spider\" />
+    <Folder Include="Earth3dViewer\js\" />
+    <Folder Include="js\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
