@@ -16,6 +16,9 @@ from scrapy.utils.url import urljoin_rfc
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor as sle
 
+
+from xpinyin import Pinyin
+
 class DmozSpider(CrawlSpider):
     name = "dmoz"
     allowed_domains = ["tencent.com"]
@@ -25,8 +28,10 @@ class DmozSpider(CrawlSpider):
     rules = [
         Rule(sle(allow=("/position.php\?&start=\d{,4}#a")), follow=True, callback='parse_item')
     ]
+    
 
     def parse_item(self, response):
+        p = Pinyin()
         items = []
         sel = Selector(response)
         base_url = get_base_url(response)
@@ -35,6 +40,7 @@ class DmozSpider(CrawlSpider):
             item = Website()
             item['name'] = site.css('.l.square a').xpath('text()').extract()[0]
             item['description'] = site.css('tr > td:nth-child(2)::text').extract()[0]
-            item['url'] = site.css('tr > td:nth-child(4)::text').extract()[0]
+            url=site.css('tr > td:nth-child(4)::text').extract()[0]
+            item['url'] = p.get_initials(url,u'')
             items.append(item)
         return items
