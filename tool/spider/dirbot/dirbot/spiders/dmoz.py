@@ -38,9 +38,13 @@ class DmozSpider(CrawlSpider):
         sites_even = sel.css('table.tablelist tr.even')
         for site in sites_even:
             item = Website()
+            
             item['name'] = site.css('.l.square a').xpath('text()').extract()[0]
             item['description'] = site.css('tr > td:nth-child(2)::text').extract()[0]
             url=site.css('tr > td:nth-child(4)::text').extract()[0]
             item['url'] = p.get_initials(url,u'')
+            item['address'] = url
+            item['num'] = site.css('tr > td:nth-child(3)::text').extract()[0]
+            item['uid'] = site.css('.l.square a').xpath('text()').extract()[0]
             items.append(item)
         return items
